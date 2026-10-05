@@ -1,0 +1,19 @@
+#!/bin/bash
+
+examples=(
+"python3 mlfq.py -n 3 -q 10 -l 0,200,0 -c"
+"python3 mlfq.py -q 10 -l 0,180,0:100,20,0 -c"
+"python3 mlfq.py -n 3 -q 10 -l 0,180,0:0,50,5 -S -c"
+"python3 mlfq.py -n 3 -q 10 -l 0,200,0:0,100,5 -S -B 50 -c"
+"python3 mlfq.py -n 3 -q 10 -l 0,200,9:0,200,0 -S -c"
+"python3 mlfq.py -Q 10,20,40 -l 0,100,0 -c"
+)
+
+for command in "${examples[@]}"
+do
+    echo "========================================"
+    echo "$command"
+    echo "========================================"
+    eval "$command"
+    echo
+done

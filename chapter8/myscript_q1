@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for seed in 1 2 3
+do
+    echo "===== Seed $seed ====="
+    python3 mlfq.py -j 2 -n 2 -m 20 -M 0 -s "$seed" -c
+    echo
+done
