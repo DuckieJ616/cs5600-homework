@@ -1,0 +1,3119 @@
+seed 1
+size 100
+baseAddr 1000
+headerSize 0
+alignment -1
+policy BEST
+listOrder ADDRSORT
+coalesce False
+numOps 1000
+range 10
+percentAlloc 90
+allocList 
+compute True
+
+ptr[0] = Alloc(9) returned 1000 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1009 sz:91 ]
+
+ptr[1] = Alloc(3) returned 1009 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1012 sz:88 ]
+
+ptr[2] = Alloc(5) returned 1012 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1017 sz:83 ]
+
+ptr[3] = Alloc(8) returned 1017 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1025 sz:75 ]
+
+ptr[4] = Alloc(1) returned 1025 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1026 sz:74 ]
+
+ptr[5] = Alloc(5) returned 1026 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1031 sz:69 ]
+
+ptr[6] = Alloc(1) returned 1031 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1032 sz:68 ]
+
+ptr[7] = Alloc(8) returned 1032 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1040 sz:60 ]
+
+ptr[8] = Alloc(10) returned 1040 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1050 sz:50 ]
+
+Free(ptr[0])
+returned 0
+Free List [ Size 2 ]: [ addr:1000 sz:9 ][ addr:1050 sz:50 ]
+
+ptr[9] = Alloc(6) returned 1000 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1006 sz:3 ][ addr:1050 sz:50 ]
+
+Free(ptr[4])
+returned 0
+Free List [ Size 3 ]: [ addr:1006 sz:3 ][ addr:1025 sz:1 ][ addr:1050 sz:50 ]
+
+ptr[10] = Alloc(5) returned 1050 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1006 sz:3 ][ addr:1025 sz:1 ][ addr:1055 sz:45 ]
+
+ptr[11] = Alloc(3) returned 1006 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1055 sz:45 ]
+
+ptr[12] = Alloc(5) returned 1055 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1060 sz:40 ]
+
+ptr[13] = Alloc(3) returned 1060 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1063 sz:37 ]
+
+ptr[14] = Alloc(5) returned 1063 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1068 sz:32 ]
+
+ptr[15] = Alloc(1) returned 1025 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1068 sz:32 ]
+
+ptr[16] = Alloc(6) returned 1068 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1074 sz:26 ]
+
+ptr[17] = Alloc(2) returned 1074 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1076 sz:24 ]
+
+Free(ptr[15])
+returned 0
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1076 sz:24 ]
+
+ptr[18] = Alloc(4) returned 1076 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1080 sz:20 ]
+
+ptr[19] = Alloc(8) returned 1080 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1088 sz:12 ]
+
+Free(ptr[9])
+returned 0
+Free List [ Size 3 ]: [ addr:1000 sz:6 ][ addr:1025 sz:1 ][ addr:1088 sz:12 ]
+
+ptr[20] = Alloc(7) returned 1088 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1000 sz:6 ][ addr:1025 sz:1 ][ addr:1095 sz:5 ]
+
+ptr[21] = Alloc(6) returned 1000 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1095 sz:5 ]
+
+ptr[22] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1095 sz:5 ]
+
+ptr[23] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1095 sz:5 ]
+
+ptr[24] = Alloc(3) returned 1095 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1098 sz:2 ]
+
+ptr[25] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1098 sz:2 ]
+
+ptr[26] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1098 sz:2 ]
+
+ptr[27] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1098 sz:2 ]
+
+ptr[28] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1098 sz:2 ]
+
+ptr[29] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1098 sz:2 ]
+
+ptr[30] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1025 sz:1 ][ addr:1098 sz:2 ]
+
+ptr[31] = Alloc(1) returned 1025 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+ptr[32] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+Free(ptr[14])
+returned 0
+Free List [ Size 2 ]: [ addr:1063 sz:5 ][ addr:1098 sz:2 ]
+
+ptr[33] = Alloc(2) returned 1098 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1063 sz:5 ]
+
+ptr[34] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1063 sz:5 ]
+
+ptr[35] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1063 sz:5 ]
+
+ptr[36] = Alloc(3) returned 1063 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1066 sz:2 ]
+
+ptr[37] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1066 sz:2 ]
+
+ptr[38] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1066 sz:2 ]
+
+ptr[39] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1066 sz:2 ]
+
+Free(ptr[1])
+returned 0
+Free List [ Size 2 ]: [ addr:1009 sz:3 ][ addr:1066 sz:2 ]
+
+ptr[40] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:3 ][ addr:1066 sz:2 ]
+
+ptr[41] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:3 ][ addr:1066 sz:2 ]
+
+ptr[42] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:3 ][ addr:1066 sz:2 ]
+
+ptr[43] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:3 ][ addr:1066 sz:2 ]
+
+ptr[44] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:3 ][ addr:1066 sz:2 ]
+
+ptr[45] = Alloc(2) returned 1066 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1009 sz:3 ]
+
+ptr[46] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1009 sz:3 ]
+
+ptr[47] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1009 sz:3 ]
+
+ptr[48] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1009 sz:3 ]
+
+ptr[49] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1009 sz:3 ]
+
+ptr[50] = Alloc(3) returned 1009 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[51] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[52] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[53] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[54] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[55] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[56] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[57] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[58] = Alloc(7) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[59] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[60] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[61] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[62] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[63] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[64] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[65] = Alloc(2) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[66] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[67] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[68] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[69] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[70] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[71] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[72] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[73] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[74] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[75] = Alloc(7) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[76] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[77] = Alloc(7) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[78] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[36])
+returned 0
+Free List [ Size 1 ]: [ addr:1063 sz:3 ]
+
+ptr[79] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1063 sz:3 ]
+
+ptr[80] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1063 sz:3 ]
+
+ptr[81] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1063 sz:3 ]
+
+ptr[82] = Alloc(1) returned 1063 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1064 sz:2 ]
+
+ptr[83] = Alloc(1) returned 1064 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1065 sz:1 ]
+
+ptr[84] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1065 sz:1 ]
+
+ptr[85] = Alloc(2) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1065 sz:1 ]
+
+ptr[86] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1065 sz:1 ]
+
+ptr[87] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1065 sz:1 ]
+
+ptr[88] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1065 sz:1 ]
+
+ptr[89] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1065 sz:1 ]
+
+ptr[90] = Alloc(2) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1065 sz:1 ]
+
+ptr[91] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1065 sz:1 ]
+
+ptr[92] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1065 sz:1 ]
+
+ptr[93] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1065 sz:1 ]
+
+ptr[94] = Alloc(1) returned 1065 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[95] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[33])
+returned 0
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+ptr[96] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+ptr[97] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+Free(ptr[11])
+returned 0
+Free List [ Size 2 ]: [ addr:1006 sz:3 ][ addr:1098 sz:2 ]
+
+ptr[98] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1006 sz:3 ][ addr:1098 sz:2 ]
+
+ptr[99] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1006 sz:3 ][ addr:1098 sz:2 ]
+
+ptr[100] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1006 sz:3 ][ addr:1098 sz:2 ]
+
+ptr[101] = Alloc(2) returned 1098 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1006 sz:3 ]
+
+Free(ptr[7])
+returned 0
+Free List [ Size 2 ]: [ addr:1006 sz:3 ][ addr:1032 sz:8 ]
+
+ptr[102] = Alloc(7) returned 1032 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1006 sz:3 ][ addr:1039 sz:1 ]
+
+ptr[103] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1006 sz:3 ][ addr:1039 sz:1 ]
+
+ptr[104] = Alloc(3) returned 1006 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1039 sz:1 ]
+
+ptr[105] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1039 sz:1 ]
+
+Free(ptr[101])
+returned 0
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1098 sz:2 ]
+
+ptr[106] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1098 sz:2 ]
+
+ptr[107] = Alloc(1) returned 1039 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+ptr[108] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+ptr[109] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+ptr[110] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+ptr[111] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+ptr[112] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+ptr[113] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+ptr[114] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:2 ]
+
+Free(ptr[18])
+returned 0
+Free List [ Size 2 ]: [ addr:1076 sz:4 ][ addr:1098 sz:2 ]
+
+ptr[115] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1076 sz:4 ][ addr:1098 sz:2 ]
+
+ptr[116] = Alloc(1) returned 1098 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1076 sz:4 ][ addr:1099 sz:1 ]
+
+ptr[117] = Alloc(1) returned 1099 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1076 sz:4 ]
+
+ptr[118] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1076 sz:4 ]
+
+ptr[119] = Alloc(3) returned 1076 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1079 sz:1 ]
+
+Free(ptr[19])
+returned 0
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1080 sz:8 ]
+
+ptr[120] = Alloc(2) returned 1080 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1082 sz:6 ]
+
+ptr[121] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1082 sz:6 ]
+
+ptr[122] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1082 sz:6 ]
+
+ptr[123] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1082 sz:6 ]
+
+Free(ptr[13])
+returned 0
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1079 sz:1 ][ addr:1082 sz:6 ]
+
+ptr[124] = Alloc(5) returned 1082 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[125] = Alloc(7) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[126] = Alloc(1) returned 1079 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1060 sz:3 ][ addr:1087 sz:1 ]
+
+Free(ptr[16])
+returned 0
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1068 sz:6 ][ addr:1087 sz:1 ]
+
+ptr[127] = Alloc(5) returned 1068 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[128] = Alloc(1) returned 1073 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1060 sz:3 ][ addr:1087 sz:1 ]
+
+Free(ptr[128])
+returned 0
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ]
+
+Free(ptr[6])
+returned 0
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1060 sz:3 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[129] = Alloc(7) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1060 sz:3 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ]
+
+Free(ptr[83])
+returned 0
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1060 sz:3 ][ addr:1064 sz:1 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[130] = Alloc(7) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1060 sz:3 ][ addr:1064 sz:1 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[131] = Alloc(6) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1060 sz:3 ][ addr:1064 sz:1 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[132] = Alloc(3) returned 1060 (searched 5 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1064 sz:1 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[133] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1064 sz:1 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ]
+
+Free(ptr[45])
+returned 0
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1064 sz:1 ][ addr:1066 sz:2 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[134] = Alloc(7) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1064 sz:1 ][ addr:1066 sz:2 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ]
+
+Free(ptr[24])
+returned 0
+Free List [ Size 6 ]: [ addr:1031 sz:1 ][ addr:1064 sz:1 ][ addr:1066 sz:2 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[135] = Alloc(4) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1031 sz:1 ][ addr:1064 sz:1 ][ addr:1066 sz:2 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[136] = Alloc(9) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1031 sz:1 ][ addr:1064 sz:1 ][ addr:1066 sz:2 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[137] = Alloc(4) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1031 sz:1 ][ addr:1064 sz:1 ][ addr:1066 sz:2 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[138] = Alloc(6) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1031 sz:1 ][ addr:1064 sz:1 ][ addr:1066 sz:2 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[139] = Alloc(6) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1031 sz:1 ][ addr:1064 sz:1 ][ addr:1066 sz:2 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[140] = Alloc(1) returned 1031 (searched 6 elements)
+Free List [ Size 5 ]: [ addr:1064 sz:1 ][ addr:1066 sz:2 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[141] = Alloc(1) returned 1064 (searched 5 elements)
+Free List [ Size 4 ]: [ addr:1066 sz:2 ][ addr:1073 sz:1 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[142] = Alloc(1) returned 1073 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1066 sz:2 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[143] = Alloc(7) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1066 sz:2 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[144] = Alloc(8) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1066 sz:2 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[145] = Alloc(9) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1066 sz:2 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[146] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1066 sz:2 ][ addr:1087 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[147] = Alloc(1) returned 1087 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1066 sz:2 ][ addr:1095 sz:3 ]
+
+Free(ptr[10])
+returned 0
+Free List [ Size 3 ]: [ addr:1050 sz:5 ][ addr:1066 sz:2 ][ addr:1095 sz:3 ]
+
+ptr[148] = Alloc(10) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1050 sz:5 ][ addr:1066 sz:2 ][ addr:1095 sz:3 ]
+
+ptr[149] = Alloc(4) returned 1050 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1054 sz:1 ][ addr:1066 sz:2 ][ addr:1095 sz:3 ]
+
+ptr[150] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1054 sz:1 ][ addr:1066 sz:2 ][ addr:1095 sz:3 ]
+
+Free(ptr[31])
+returned 0
+Free List [ Size 4 ]: [ addr:1025 sz:1 ][ addr:1054 sz:1 ][ addr:1066 sz:2 ][ addr:1095 sz:3 ]
+
+ptr[151] = Alloc(2) returned 1066 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1025 sz:1 ][ addr:1054 sz:1 ][ addr:1095 sz:3 ]
+
+Free(ptr[2])
+returned 0
+Free List [ Size 4 ]: [ addr:1012 sz:5 ][ addr:1025 sz:1 ][ addr:1054 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[152] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1012 sz:5 ][ addr:1025 sz:1 ][ addr:1054 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[153] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1012 sz:5 ][ addr:1025 sz:1 ][ addr:1054 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[154] = Alloc(8) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1012 sz:5 ][ addr:1025 sz:1 ][ addr:1054 sz:1 ][ addr:1095 sz:3 ]
+
+ptr[155] = Alloc(2) returned 1095 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1012 sz:5 ][ addr:1025 sz:1 ][ addr:1054 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[156] = Alloc(2) returned 1012 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1014 sz:3 ][ addr:1025 sz:1 ][ addr:1054 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[157] = Alloc(7) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1014 sz:3 ][ addr:1025 sz:1 ][ addr:1054 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[158] = Alloc(1) returned 1025 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1014 sz:3 ][ addr:1054 sz:1 ][ addr:1097 sz:1 ]
+
+Free(ptr[147])
+returned 0
+Free List [ Size 4 ]: [ addr:1014 sz:3 ][ addr:1054 sz:1 ][ addr:1087 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[159] = Alloc(6) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1014 sz:3 ][ addr:1054 sz:1 ][ addr:1087 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[160] = Alloc(5) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1014 sz:3 ][ addr:1054 sz:1 ][ addr:1087 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[161] = Alloc(4) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1014 sz:3 ][ addr:1054 sz:1 ][ addr:1087 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[162] = Alloc(1) returned 1054 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1014 sz:3 ][ addr:1087 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[163] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1014 sz:3 ][ addr:1087 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[164] = Alloc(1) returned 1087 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1014 sz:3 ][ addr:1097 sz:1 ]
+
+ptr[165] = Alloc(2) returned 1014 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1016 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[166] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1016 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[167] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1016 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[168] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1016 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[169] = Alloc(1) returned 1016 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[170] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[171] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[172] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[173] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[174] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[175] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+Free(ptr[164])
+returned 0
+Free List [ Size 2 ]: [ addr:1087 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[176] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1087 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[177] = Alloc(1) returned 1087 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[178] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[179] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[180] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[181] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[182] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[183] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[184] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+Free(ptr[126])
+returned 0
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[185] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[186] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[187] = Alloc(1) returned 1079 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[188] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[189] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[190] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[191] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[192] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[193] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+Free(ptr[17])
+returned 0
+Free List [ Size 2 ]: [ addr:1074 sz:2 ][ addr:1097 sz:1 ]
+
+ptr[194] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1074 sz:2 ][ addr:1097 sz:1 ]
+
+ptr[195] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1074 sz:2 ][ addr:1097 sz:1 ]
+
+ptr[196] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1074 sz:2 ][ addr:1097 sz:1 ]
+
+Free(ptr[116])
+returned 0
+Free List [ Size 3 ]: [ addr:1074 sz:2 ][ addr:1097 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[197] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1074 sz:2 ][ addr:1097 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[198] = Alloc(4) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1074 sz:2 ][ addr:1097 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[199] = Alloc(10) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1074 sz:2 ][ addr:1097 sz:1 ][ addr:1098 sz:1 ]
+
+Free(ptr[12])
+returned 0
+Free List [ Size 4 ]: [ addr:1055 sz:5 ][ addr:1074 sz:2 ][ addr:1097 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[200] = Alloc(5) returned 1055 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1074 sz:2 ][ addr:1097 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[201] = Alloc(3) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1074 sz:2 ][ addr:1097 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[202] = Alloc(8) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1074 sz:2 ][ addr:1097 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[203] = Alloc(2) returned 1074 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1097 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[204] = Alloc(1) returned 1097 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[205] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[206] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[207] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[208] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[209] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[210] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+Free(ptr[140])
+returned 0
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[211] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[212] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[213] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[214] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[215] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[216] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[217] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[218] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[219] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[220] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1098 sz:1 ]
+
+ptr[221] = Alloc(1) returned 1031 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[222] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[223] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[224] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[225] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[226] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[227] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[228] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[229] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+Free(ptr[127])
+returned 0
+Free List [ Size 2 ]: [ addr:1068 sz:5 ][ addr:1098 sz:1 ]
+
+ptr[230] = Alloc(5) returned 1068 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[231] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[232] = Alloc(2) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[233] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1098 sz:1 ]
+
+ptr[234] = Alloc(1) returned 1098 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[235] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[236] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[237] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[238] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[239] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[240] = Alloc(7) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[241] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[242] = Alloc(7) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[177])
+returned 0
+Free List [ Size 1 ]: [ addr:1087 sz:1 ]
+
+ptr[243] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1087 sz:1 ]
+
+ptr[244] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1087 sz:1 ]
+
+ptr[245] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1087 sz:1 ]
+
+ptr[246] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1087 sz:1 ]
+
+ptr[247] = Alloc(2) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1087 sz:1 ]
+
+ptr[248] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1087 sz:1 ]
+
+ptr[249] = Alloc(1) returned 1087 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[250] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[251] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[252] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[253] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[254] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[255] = Alloc(7) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[256] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[257] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[258] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[259] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[260] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[261] = Alloc(7) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[262] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[263] = Alloc(7) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[264] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[265] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[266] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[267] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[268] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[269] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[270] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[271] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[272] = Alloc(2) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[273] = Alloc(2) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[132])
+returned 0
+Free List [ Size 1 ]: [ addr:1060 sz:3 ]
+
+Free(ptr[169])
+returned 0
+Free List [ Size 2 ]: [ addr:1016 sz:1 ][ addr:1060 sz:3 ]
+
+ptr[274] = Alloc(3) returned 1060 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1016 sz:1 ]
+
+ptr[275] = Alloc(2) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1016 sz:1 ]
+
+ptr[276] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1016 sz:1 ]
+
+ptr[277] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1016 sz:1 ]
+
+ptr[278] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1016 sz:1 ]
+
+ptr[279] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1016 sz:1 ]
+
+ptr[280] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1016 sz:1 ]
+
+ptr[281] = Alloc(1) returned 1016 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[282] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[283] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[284] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[285] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[156])
+returned 0
+Free List [ Size 1 ]: [ addr:1012 sz:2 ]
+
+ptr[286] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1012 sz:2 ]
+
+ptr[287] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1012 sz:2 ]
+
+ptr[288] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1012 sz:2 ]
+
+ptr[289] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1012 sz:2 ]
+
+ptr[290] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1012 sz:2 ]
+
+ptr[291] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1012 sz:2 ]
+
+ptr[292] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1012 sz:2 ]
+
+ptr[293] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1012 sz:2 ]
+
+ptr[294] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1012 sz:2 ]
+
+Free(ptr[5])
+returned 0
+Free List [ Size 2 ]: [ addr:1012 sz:2 ][ addr:1026 sz:5 ]
+
+ptr[295] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1012 sz:2 ][ addr:1026 sz:5 ]
+
+ptr[296] = Alloc(4) returned 1026 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1012 sz:2 ][ addr:1030 sz:1 ]
+
+ptr[297] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1012 sz:2 ][ addr:1030 sz:1 ]
+
+ptr[298] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1012 sz:2 ][ addr:1030 sz:1 ]
+
+ptr[299] = Alloc(2) returned 1012 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1030 sz:1 ]
+
+Free(ptr[3])
+returned 0
+Free List [ Size 2 ]: [ addr:1017 sz:8 ][ addr:1030 sz:1 ]
+
+ptr[300] = Alloc(7) returned 1017 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1024 sz:1 ][ addr:1030 sz:1 ]
+
+ptr[301] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1024 sz:1 ][ addr:1030 sz:1 ]
+
+ptr[302] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1024 sz:1 ][ addr:1030 sz:1 ]
+
+ptr[303] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1024 sz:1 ][ addr:1030 sz:1 ]
+
+ptr[304] = Alloc(1) returned 1024 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1030 sz:1 ]
+
+ptr[305] = Alloc(1) returned 1030 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[306] = Alloc(2) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[307] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[308] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[309] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[310] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[311] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[312] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[313] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[314] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[315] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[316] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[317] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[318] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[319] = Alloc(7) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[320] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[321] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[322] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[323] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[324] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[325] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[326] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[327] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[328] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[329] = Alloc(2) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[330] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[331] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[332] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[333] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[334] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[335] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[336] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[337] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[338] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[339] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[340] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[341] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[342] = Alloc(2) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[343] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[221])
+returned 0
+Free List [ Size 1 ]: [ addr:1031 sz:1 ]
+
+ptr[344] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1031 sz:1 ]
+
+ptr[345] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1031 sz:1 ]
+
+ptr[346] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1031 sz:1 ]
+
+ptr[347] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1031 sz:1 ]
+
+ptr[348] = Alloc(1) returned 1031 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[349] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[350] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[351] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[352] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[353] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[354] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[355] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[356] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[357] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[358] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[305])
+returned 0
+Free List [ Size 1 ]: [ addr:1030 sz:1 ]
+
+ptr[359] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1030 sz:1 ]
+
+Free(ptr[274])
+returned 0
+Free List [ Size 2 ]: [ addr:1030 sz:1 ][ addr:1060 sz:3 ]
+
+ptr[360] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1030 sz:1 ][ addr:1060 sz:3 ]
+
+ptr[361] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1030 sz:1 ][ addr:1060 sz:3 ]
+
+ptr[362] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1030 sz:1 ][ addr:1060 sz:3 ]
+
+ptr[363] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1030 sz:1 ][ addr:1060 sz:3 ]
+
+Free(ptr[187])
+returned 0
+Free List [ Size 3 ]: [ addr:1030 sz:1 ][ addr:1060 sz:3 ][ addr:1079 sz:1 ]
+
+ptr[364] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1030 sz:1 ][ addr:1060 sz:3 ][ addr:1079 sz:1 ]
+
+Free(ptr[155])
+returned 0
+Free List [ Size 4 ]: [ addr:1030 sz:1 ][ addr:1060 sz:3 ][ addr:1079 sz:1 ][ addr:1095 sz:2 ]
+
+ptr[365] = Alloc(2) returned 1095 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1030 sz:1 ][ addr:1060 sz:3 ][ addr:1079 sz:1 ]
+
+ptr[366] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1030 sz:1 ][ addr:1060 sz:3 ][ addr:1079 sz:1 ]
+
+Free(ptr[102])
+returned 0
+Free List [ Size 4 ]: [ addr:1030 sz:1 ][ addr:1032 sz:7 ][ addr:1060 sz:3 ][ addr:1079 sz:1 ]
+
+ptr[367] = Alloc(8) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1030 sz:1 ][ addr:1032 sz:7 ][ addr:1060 sz:3 ][ addr:1079 sz:1 ]
+
+ptr[368] = Alloc(1) returned 1030 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1032 sz:7 ][ addr:1060 sz:3 ][ addr:1079 sz:1 ]
+
+ptr[369] = Alloc(3) returned 1060 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1032 sz:7 ][ addr:1079 sz:1 ]
+
+ptr[370] = Alloc(3) returned 1032 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1035 sz:4 ][ addr:1079 sz:1 ]
+
+ptr[371] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1035 sz:4 ][ addr:1079 sz:1 ]
+
+ptr[372] = Alloc(1) returned 1079 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1035 sz:4 ]
+
+ptr[373] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1035 sz:4 ]
+
+ptr[374] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1035 sz:4 ]
+
+ptr[375] = Alloc(4) returned 1035 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[376] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[377] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[378] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[379] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[380] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[304])
+returned 0
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[381] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+Free(ptr[119])
+returned 0
+Free List [ Size 2 ]: [ addr:1024 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[382] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1024 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[383] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1024 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[384] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1024 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[385] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1024 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[386] = Alloc(1) returned 1024 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1076 sz:3 ]
+
+ptr[387] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1076 sz:3 ]
+
+ptr[388] = Alloc(3) returned 1076 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[389] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[390] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[391] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[204])
+returned 0
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[392] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[393] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[394] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[395] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[396] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[397] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[398] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+ptr[399] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1097 sz:1 ]
+
+Free(ptr[300])
+returned 0
+Free List [ Size 2 ]: [ addr:1017 sz:7 ][ addr:1097 sz:1 ]
+
+ptr[400] = Alloc(4) returned 1017 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1021 sz:3 ][ addr:1097 sz:1 ]
+
+ptr[401] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1021 sz:3 ][ addr:1097 sz:1 ]
+
+ptr[402] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1021 sz:3 ][ addr:1097 sz:1 ]
+
+ptr[403] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1021 sz:3 ][ addr:1097 sz:1 ]
+
+ptr[404] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1021 sz:3 ][ addr:1097 sz:1 ]
+
+ptr[405] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1021 sz:3 ][ addr:1097 sz:1 ]
+
+ptr[406] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1021 sz:3 ][ addr:1097 sz:1 ]
+
+ptr[407] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1021 sz:3 ][ addr:1097 sz:1 ]
+
+ptr[408] = Alloc(2) returned 1021 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1023 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[409] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1023 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[410] = Alloc(2) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1023 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[411] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1023 sz:1 ][ addr:1097 sz:1 ]
+
+ptr[412] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1023 sz:1 ][ addr:1097 sz:1 ]
+
+Free(ptr[120])
+returned 0
+Free List [ Size 3 ]: [ addr:1023 sz:1 ][ addr:1080 sz:2 ][ addr:1097 sz:1 ]
+
+ptr[413] = Alloc(8) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1023 sz:1 ][ addr:1080 sz:2 ][ addr:1097 sz:1 ]
+
+ptr[414] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1023 sz:1 ][ addr:1080 sz:2 ][ addr:1097 sz:1 ]
+
+ptr[415] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1023 sz:1 ][ addr:1080 sz:2 ][ addr:1097 sz:1 ]
+
+ptr[416] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1023 sz:1 ][ addr:1080 sz:2 ][ addr:1097 sz:1 ]
+
+Free(ptr[348])
+returned 0
+Free List [ Size 4 ]: [ addr:1023 sz:1 ][ addr:1031 sz:1 ][ addr:1080 sz:2 ][ addr:1097 sz:1 ]
+
+ptr[417] = Alloc(2) returned 1080 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1023 sz:1 ][ addr:1031 sz:1 ][ addr:1097 sz:1 ]
+
+Free(ptr[117])
+returned 0
+Free List [ Size 4 ]: [ addr:1023 sz:1 ][ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[418] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1023 sz:1 ][ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[419] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1023 sz:1 ][ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[420] = Alloc(8) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1023 sz:1 ][ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[421] = Alloc(1) returned 1023 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[422] = Alloc(10) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[423] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[424] = Alloc(10) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[50])
+returned 0
+Free List [ Size 4 ]: [ addr:1009 sz:3 ][ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[425] = Alloc(5) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1009 sz:3 ][ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[426] = Alloc(2) returned 1009 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[427] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[428] = Alloc(8) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[429] = Alloc(8) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[430] = Alloc(1) returned 1011 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[431] = Alloc(7) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[432] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1031 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[94])
+returned 0
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[433] = Alloc(2) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[434] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[435] = Alloc(6) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[436] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[151])
+returned 0
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1066 sz:2 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[437] = Alloc(9) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1066 sz:2 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[438] = Alloc(3) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1066 sz:2 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[439] = Alloc(4) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1066 sz:2 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[440] = Alloc(1) returned 1031 (searched 5 elements)
+Free List [ Size 4 ]: [ addr:1065 sz:1 ][ addr:1066 sz:2 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[369])
+returned 0
+Free List [ Size 5 ]: [ addr:1060 sz:3 ][ addr:1065 sz:1 ][ addr:1066 sz:2 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[430])
+returned 0
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1060 sz:3 ][ addr:1065 sz:1 ][ addr:1066 sz:2 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[441] = Alloc(6) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1060 sz:3 ][ addr:1065 sz:1 ][ addr:1066 sz:2 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[442] = Alloc(8) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1060 sz:3 ][ addr:1065 sz:1 ][ addr:1066 sz:2 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[443] = Alloc(3) returned 1060 (searched 6 elements)
+Free List [ Size 5 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1066 sz:2 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[444] = Alloc(8) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1066 sz:2 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[445] = Alloc(2) returned 1066 (searched 5 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[446] = Alloc(6) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[447] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[448] = Alloc(7) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[449] = Alloc(5) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[450] = Alloc(7) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[451] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[452] = Alloc(5) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[453] = Alloc(7) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[454] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[455] = Alloc(6) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[456] = Alloc(4) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[457] = Alloc(7) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[458] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[459] = Alloc(5) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[460] = Alloc(2) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[461] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[462] = Alloc(6) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[463] = Alloc(6) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[464] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[465] = Alloc(6) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[466] = Alloc(5) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[467] = Alloc(1) returned 1011 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[468] = Alloc(7) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[469] = Alloc(3) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[470] = Alloc(10) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[471] = Alloc(7) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1065 sz:1 ][ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[472] = Alloc(1) returned 1065 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[473] = Alloc(2) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[474] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1097 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[475] = Alloc(1) returned 1097 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[476] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[477] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[478] = Alloc(1) returned 1099 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[479] = Alloc(2) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[480] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[481] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[482] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[483] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[203])
+returned 0
+Free List [ Size 1 ]: [ addr:1074 sz:2 ]
+
+ptr[484] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1074 sz:2 ]
+
+ptr[485] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1074 sz:2 ]
+
+ptr[486] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1074 sz:2 ]
+
+ptr[487] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1074 sz:2 ]
+
+ptr[488] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1074 sz:2 ]
+
+ptr[489] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1074 sz:2 ]
+
+ptr[490] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1074 sz:2 ]
+
+ptr[491] = Alloc(1) returned 1074 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1075 sz:1 ]
+
+ptr[492] = Alloc(2) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1075 sz:1 ]
+
+ptr[493] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1075 sz:1 ]
+
+ptr[494] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1075 sz:1 ]
+
+ptr[495] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1075 sz:1 ]
+
+ptr[496] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1075 sz:1 ]
+
+ptr[497] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1075 sz:1 ]
+
+ptr[498] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1075 sz:1 ]
+
+ptr[499] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1075 sz:1 ]
+
+ptr[500] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1075 sz:1 ]
+
+ptr[501] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1075 sz:1 ]
+
+ptr[502] = Alloc(2) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1075 sz:1 ]
+
+Free(ptr[107])
+returned 0
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ]
+
+ptr[503] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ]
+
+ptr[504] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ]
+
+ptr[505] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ]
+
+ptr[506] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ]
+
+ptr[507] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ]
+
+ptr[508] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ]
+
+ptr[509] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ]
+
+ptr[510] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ]
+
+ptr[511] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ]
+
+Free(ptr[388])
+returned 0
+Free List [ Size 3 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[512] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[513] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[514] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[515] = Alloc(10) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[516] = Alloc(7) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[517] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[518] = Alloc(8) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1039 sz:1 ][ addr:1075 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[519] = Alloc(1) returned 1039 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1075 sz:1 ][ addr:1076 sz:3 ]
+
+ptr[520] = Alloc(2) returned 1076 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[521] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[522] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+Free(ptr[408])
+returned 0
+Free List [ Size 3 ]: [ addr:1021 sz:2 ][ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[523] = Alloc(9) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1021 sz:2 ][ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[524] = Alloc(9) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1021 sz:2 ][ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[525] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1021 sz:2 ][ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[526] = Alloc(2) returned 1021 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[527] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[528] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[529] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+Free(ptr[443])
+returned 0
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[530] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[531] = Alloc(3) returned 1060 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[532] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[533] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1075 sz:1 ][ addr:1078 sz:1 ]
+
+ptr[534] = Alloc(1) returned 1075 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1078 sz:1 ]
+
+ptr[535] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1078 sz:1 ]
+
+ptr[536] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1078 sz:1 ]
+
+ptr[537] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1078 sz:1 ]
+
+ptr[538] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1078 sz:1 ]
+
+ptr[539] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1078 sz:1 ]
+
+ptr[540] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1078 sz:1 ]
+
+ptr[541] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1078 sz:1 ]
+
+ptr[542] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1078 sz:1 ]
+
+Free(ptr[417])
+returned 0
+Free List [ Size 2 ]: [ addr:1078 sz:1 ][ addr:1080 sz:2 ]
+
+ptr[543] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1078 sz:1 ][ addr:1080 sz:2 ]
+
+ptr[544] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1078 sz:1 ][ addr:1080 sz:2 ]
+
+ptr[545] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1078 sz:1 ][ addr:1080 sz:2 ]
+
+ptr[546] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1078 sz:1 ][ addr:1080 sz:2 ]
+
+ptr[547] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1078 sz:1 ][ addr:1080 sz:2 ]
+
+Free(ptr[478])
+returned 0
+Free List [ Size 3 ]: [ addr:1078 sz:1 ][ addr:1080 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[548] = Alloc(4) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1078 sz:1 ][ addr:1080 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[549] = Alloc(1) returned 1078 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1080 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[550] = Alloc(2) returned 1080 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[551] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[552] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[553] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[554] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[555] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[556] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+Free(ptr[372])
+returned 0
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[557] = Alloc(1) returned 1079 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[558] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+Free(ptr[440])
+returned 0
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[559] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[560] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1031 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[142])
+returned 0
+Free List [ Size 3 ]: [ addr:1031 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[561] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1031 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[562] = Alloc(8) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1031 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[472])
+returned 0
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[563] = Alloc(7) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[564] = Alloc(6) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[565] = Alloc(8) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[566] = Alloc(7) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[567] = Alloc(6) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[568] = Alloc(5) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1031 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[162])
+returned 0
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[569] = Alloc(10) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[570] = Alloc(3) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[571] = Alloc(6) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[467])
+returned 0
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[572] = Alloc(6) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[573] = Alloc(6) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[574] = Alloc(2) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[575] = Alloc(4) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[576] = Alloc(9) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[577] = Alloc(2) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[578] = Alloc(9) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[579] = Alloc(7) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[580] = Alloc(4) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[581] = Alloc(3) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[582] = Alloc(3) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[583] = Alloc(2) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[584] = Alloc(3) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[585] = Alloc(9) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[586] = Alloc(2) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[587] = Alloc(9) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[588] = Alloc(6) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[589] = Alloc(2) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[590] = Alloc(1) returned 1011 (searched 6 elements)
+Free List [ Size 5 ]: [ addr:1031 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[591] = Alloc(1) returned 1031 (searched 5 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[592] = Alloc(4) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[593] = Alloc(6) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[594] = Alloc(6) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[595] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[596] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[597] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[598] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[599] = Alloc(8) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[600] = Alloc(6) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[601] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[602] = Alloc(5) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[603] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[604] = Alloc(7) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[605] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[606] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[607] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[421])
+returned 0
+Free List [ Size 5 ]: [ addr:1023 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[608] = Alloc(9) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1023 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[609] = Alloc(3) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1023 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[610] = Alloc(6) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1023 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[611] = Alloc(10) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1023 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[612] = Alloc(9) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1023 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[613] = Alloc(10) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1023 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[614] = Alloc(8) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1023 sz:1 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[615] = Alloc(1) returned 1023 (searched 5 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[616] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[617] = Alloc(4) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[618] = Alloc(7) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[619] = Alloc(7) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[620] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[621] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[526])
+returned 0
+Free List [ Size 5 ]: [ addr:1021 sz:2 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[622] = Alloc(3) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1021 sz:2 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[623] = Alloc(9) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1021 sz:2 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[624] = Alloc(6) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1021 sz:2 ][ addr:1054 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[625] = Alloc(1) returned 1054 (searched 5 elements)
+Free List [ Size 4 ]: [ addr:1021 sz:2 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[626] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1021 sz:2 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[627] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1021 sz:2 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[82])
+returned 0
+Free List [ Size 5 ]: [ addr:1021 sz:2 ][ addr:1063 sz:1 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[628] = Alloc(1) returned 1063 (searched 5 elements)
+Free List [ Size 4 ]: [ addr:1021 sz:2 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[629] = Alloc(5) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1021 sz:2 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[426])
+returned 0
+Free List [ Size 5 ]: [ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[630] = Alloc(6) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[631] = Alloc(2) returned 1009 (searched 5 elements)
+Free List [ Size 4 ]: [ addr:1021 sz:2 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[632] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1021 sz:2 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[549])
+returned 0
+Free List [ Size 5 ]: [ addr:1021 sz:2 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[633] = Alloc(10) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1021 sz:2 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[634] = Alloc(9) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1021 sz:2 ][ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[635] = Alloc(2) returned 1021 (searched 5 elements)
+Free List [ Size 4 ]: [ addr:1065 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[230])
+returned 0
+Free List [ Size 5 ]: [ addr:1065 sz:1 ][ addr:1068 sz:5 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[636] = Alloc(6) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1065 sz:1 ][ addr:1068 sz:5 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[590])
+returned 0
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1068 sz:5 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[637] = Alloc(10) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1068 sz:5 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[638] = Alloc(9) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1068 sz:5 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[639] = Alloc(4) returned 1068 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1011 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[370])
+returned 0
+Free List [ Size 7 ]: [ addr:1011 sz:1 ][ addr:1032 sz:3 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[400])
+returned 0
+Free List [ Size 8 ]: [ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1032 sz:3 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[368])
+returned 0
+Free List [ Size 9 ]: [ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1030 sz:1 ][ addr:1032 sz:3 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[640] = Alloc(6) returned -1 (searched 9 elements)
+Free List [ Size 9 ]: [ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1030 sz:1 ][ addr:1032 sz:3 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[641] = Alloc(2) returned 1032 (searched 9 elements)
+Free List [ Size 9 ]: [ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[642] = Alloc(9) returned -1 (searched 9 elements)
+Free List [ Size 9 ]: [ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[643] = Alloc(9) returned -1 (searched 9 elements)
+Free List [ Size 9 ]: [ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[644] = Alloc(8) returned -1 (searched 9 elements)
+Free List [ Size 9 ]: [ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[645] = Alloc(10) returned -1 (searched 9 elements)
+Free List [ Size 9 ]: [ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[646] = Alloc(6) returned -1 (searched 9 elements)
+Free List [ Size 9 ]: [ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[647] = Alloc(6) returned -1 (searched 9 elements)
+Free List [ Size 9 ]: [ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[648] = Alloc(10) returned -1 (searched 9 elements)
+Free List [ Size 9 ]: [ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[649] = Alloc(4) returned 1017 (searched 9 elements)
+Free List [ Size 8 ]: [ addr:1011 sz:1 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[650] = Alloc(7) returned -1 (searched 8 elements)
+Free List [ Size 8 ]: [ addr:1011 sz:1 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[651] = Alloc(5) returned -1 (searched 8 elements)
+Free List [ Size 8 ]: [ addr:1011 sz:1 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[652] = Alloc(9) returned -1 (searched 8 elements)
+Free List [ Size 8 ]: [ addr:1011 sz:1 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[653] = Alloc(6) returned -1 (searched 8 elements)
+Free List [ Size 8 ]: [ addr:1011 sz:1 ][ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[654] = Alloc(1) returned 1011 (searched 8 elements)
+Free List [ Size 7 ]: [ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[655] = Alloc(4) returned -1 (searched 7 elements)
+Free List [ Size 7 ]: [ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[656] = Alloc(9) returned -1 (searched 7 elements)
+Free List [ Size 7 ]: [ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[657] = Alloc(2) returned -1 (searched 7 elements)
+Free List [ Size 7 ]: [ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[658] = Alloc(6) returned -1 (searched 7 elements)
+Free List [ Size 7 ]: [ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[659] = Alloc(10) returned -1 (searched 7 elements)
+Free List [ Size 7 ]: [ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[660] = Alloc(7) returned -1 (searched 7 elements)
+Free List [ Size 7 ]: [ addr:1030 sz:1 ][ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[661] = Alloc(1) returned 1030 (searched 7 elements)
+Free List [ Size 6 ]: [ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[662] = Alloc(9) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[663] = Alloc(10) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[664] = Alloc(6) returned -1 (searched 6 elements)
+Free List [ Size 6 ]: [ addr:1034 sz:1 ][ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[665] = Alloc(1) returned 1034 (searched 6 elements)
+Free List [ Size 5 ]: [ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[666] = Alloc(10) returned -1 (searched 5 elements)
+Free List [ Size 5 ]: [ addr:1065 sz:1 ][ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[667] = Alloc(1) returned 1065 (searched 5 elements)
+Free List [ Size 4 ]: [ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[668] = Alloc(8) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[669] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[670] = Alloc(5) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[671] = Alloc(4) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[672] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1072 sz:1 ][ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[673] = Alloc(1) returned 1072 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[674] = Alloc(10) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[675] = Alloc(2) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[676] = Alloc(4) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1073 sz:1 ][ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[677] = Alloc(1) returned 1073 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[678] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1078 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[679] = Alloc(1) returned 1078 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[680] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[681] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+Free(ptr[165])
+returned 0
+Free List [ Size 2 ]: [ addr:1014 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[682] = Alloc(2) returned 1014 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[683] = Alloc(2) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[684] = Alloc(2) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[685] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[686] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[687] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+Free(ptr[8])
+returned 0
+Free List [ Size 2 ]: [ addr:1040 sz:10 ][ addr:1099 sz:1 ]
+
+Free(ptr[21])
+returned 0
+Free List [ Size 3 ]: [ addr:1000 sz:6 ][ addr:1040 sz:10 ][ addr:1099 sz:1 ]
+
+ptr[688] = Alloc(6) returned 1000 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1040 sz:10 ][ addr:1099 sz:1 ]
+
+ptr[689] = Alloc(8) returned 1040 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1048 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[690] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1048 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[691] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1048 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[692] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1048 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[693] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1048 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[694] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1048 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[695] = Alloc(2) returned 1048 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[696] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+Free(ptr[519])
+returned 0
+Free List [ Size 2 ]: [ addr:1039 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[697] = Alloc(1) returned 1039 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[698] = Alloc(2) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[699] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+Free(ptr[531])
+returned 0
+Free List [ Size 2 ]: [ addr:1060 sz:3 ][ addr:1099 sz:1 ]
+
+ptr[700] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1060 sz:3 ][ addr:1099 sz:1 ]
+
+ptr[701] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1060 sz:3 ][ addr:1099 sz:1 ]
+
+ptr[702] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1060 sz:3 ][ addr:1099 sz:1 ]
+
+Free(ptr[673])
+returned 0
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[703] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[704] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[705] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[706] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[707] = Alloc(9) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[708] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[709] = Alloc(9) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1060 sz:3 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[710] = Alloc(3) returned 1060 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[711] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[712] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[713] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[714] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[641])
+returned 0
+Free List [ Size 3 ]: [ addr:1032 sz:2 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[715] = Alloc(4) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1032 sz:2 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[716] = Alloc(7) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1032 sz:2 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[717] = Alloc(8) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1032 sz:2 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[718] = Alloc(8) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1032 sz:2 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[719] = Alloc(4) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1032 sz:2 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[720] = Alloc(4) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1032 sz:2 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[721] = Alloc(8) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1032 sz:2 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[722] = Alloc(3) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1032 sz:2 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[723] = Alloc(2) returned 1032 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[635])
+returned 0
+Free List [ Size 3 ]: [ addr:1021 sz:2 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[724] = Alloc(7) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1021 sz:2 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+Free(ptr[628])
+returned 0
+Free List [ Size 4 ]: [ addr:1021 sz:2 ][ addr:1063 sz:1 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[725] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1021 sz:2 ][ addr:1063 sz:1 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[726] = Alloc(2) returned 1021 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1063 sz:1 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[727] = Alloc(6) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1063 sz:1 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[728] = Alloc(4) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1063 sz:1 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[729] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1063 sz:1 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[730] = Alloc(5) returned -1 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1063 sz:1 ][ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[731] = Alloc(1) returned 1063 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[732] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[733] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[734] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[735] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[736] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[737] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[738] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[739] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1072 sz:1 ][ addr:1099 sz:1 ]
+
+ptr[740] = Alloc(1) returned 1072 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[741] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[742] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[743] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[744] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[745] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[746] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[747] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[748] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+ptr[749] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+Free(ptr[299])
+returned 0
+Free List [ Size 2 ]: [ addr:1012 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[750] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1012 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[751] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1012 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[752] = Alloc(2) returned 1012 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1099 sz:1 ]
+
+Free(ptr[752])
+returned 0
+Free List [ Size 2 ]: [ addr:1012 sz:2 ][ addr:1099 sz:1 ]
+
+ptr[753] = Alloc(1) returned 1099 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1012 sz:2 ]
+
+ptr[754] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1012 sz:2 ]
+
+ptr[755] = Alloc(1) returned 1012 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1013 sz:1 ]
+
+ptr[756] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1013 sz:1 ]
+
+ptr[757] = Alloc(1) returned 1013 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[758] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[759] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[760] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[761] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[762] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[763] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[764] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[765] = Alloc(2) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[766] = Alloc(8) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[767] = Alloc(2) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[149])
+returned 0
+Free List [ Size 1 ]: [ addr:1050 sz:4 ]
+
+ptr[768] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1050 sz:4 ]
+
+ptr[769] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1050 sz:4 ]
+
+ptr[770] = Alloc(1) returned 1050 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1051 sz:3 ]
+
+ptr[771] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1051 sz:3 ]
+
+ptr[772] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1051 sz:3 ]
+
+ptr[773] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1051 sz:3 ]
+
+ptr[774] = Alloc(3) returned 1051 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[775] = Alloc(2) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[723])
+returned 0
+Free List [ Size 1 ]: [ addr:1032 sz:2 ]
+
+ptr[776] = Alloc(3) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1032 sz:2 ]
+
+ptr[777] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1032 sz:2 ]
+
+ptr[778] = Alloc(1) returned 1032 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1033 sz:1 ]
+
+ptr[779] = Alloc(2) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1033 sz:1 ]
+
+ptr[780] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1033 sz:1 ]
+
+ptr[781] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1033 sz:1 ]
+
+ptr[782] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1033 sz:1 ]
+
+ptr[783] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1033 sz:1 ]
+
+ptr[784] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1033 sz:1 ]
+
+ptr[785] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1033 sz:1 ]
+
+ptr[786] = Alloc(2) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1033 sz:1 ]
+
+ptr[787] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1033 sz:1 ]
+
+ptr[788] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1033 sz:1 ]
+
+Free(ptr[757])
+returned 0
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[789] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[790] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[791] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[792] = Alloc(2) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[793] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[794] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[795] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[796] = Alloc(2) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[797] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[798] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[799] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[800] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+ptr[801] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1013 sz:1 ][ addr:1033 sz:1 ]
+
+Free(ptr[726])
+returned 0
+Free List [ Size 3 ]: [ addr:1013 sz:1 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[802] = Alloc(1) returned 1013 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[803] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+Free(ptr[688])
+returned 0
+Free List [ Size 3 ]: [ addr:1000 sz:6 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[804] = Alloc(4) returned 1000 (searched 3 elements)
+Free List [ Size 3 ]: [ addr:1004 sz:2 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+Free(ptr[631])
+returned 0
+Free List [ Size 4 ]: [ addr:1004 sz:2 ][ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[805] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1004 sz:2 ][ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[806] = Alloc(7) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1004 sz:2 ][ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[807] = Alloc(4) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1004 sz:2 ][ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[808] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1004 sz:2 ][ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[809] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1004 sz:2 ][ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[810] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1004 sz:2 ][ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[811] = Alloc(3) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1004 sz:2 ][ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[812] = Alloc(4) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1004 sz:2 ][ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[813] = Alloc(4) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1004 sz:2 ][ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[814] = Alloc(10) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1004 sz:2 ][ addr:1009 sz:2 ][ addr:1021 sz:2 ][ addr:1033 sz:1 ]
+
+ptr[815] = Alloc(1) returned 1033 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1004 sz:2 ][ addr:1009 sz:2 ][ addr:1021 sz:2 ]
+
+ptr[816] = Alloc(2) returned 1004 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:2 ][ addr:1021 sz:2 ]
+
+ptr[817] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:2 ][ addr:1021 sz:2 ]
+
+ptr[818] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:2 ][ addr:1021 sz:2 ]
+
+ptr[819] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:2 ][ addr:1021 sz:2 ]
+
+Free(ptr[654])
+returned 0
+Free List [ Size 3 ]: [ addr:1009 sz:2 ][ addr:1011 sz:1 ][ addr:1021 sz:2 ]
+
+Free(ptr[649])
+returned 0
+Free List [ Size 4 ]: [ addr:1009 sz:2 ][ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1021 sz:2 ]
+
+ptr[820] = Alloc(9) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1009 sz:2 ][ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1021 sz:2 ]
+
+ptr[821] = Alloc(5) returned -1 (searched 4 elements)
+Free List [ Size 4 ]: [ addr:1009 sz:2 ][ addr:1011 sz:1 ][ addr:1017 sz:4 ][ addr:1021 sz:2 ]
+
+ptr[822] = Alloc(4) returned 1017 (searched 4 elements)
+Free List [ Size 3 ]: [ addr:1009 sz:2 ][ addr:1011 sz:1 ][ addr:1021 sz:2 ]
+
+ptr[823] = Alloc(1) returned 1011 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:2 ][ addr:1021 sz:2 ]
+
+ptr[824] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:2 ][ addr:1021 sz:2 ]
+
+ptr[825] = Alloc(3) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:2 ][ addr:1021 sz:2 ]
+
+ptr[826] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:2 ][ addr:1021 sz:2 ]
+
+ptr[827] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:2 ][ addr:1021 sz:2 ]
+
+ptr[828] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1009 sz:2 ][ addr:1021 sz:2 ]
+
+ptr[829] = Alloc(1) returned 1009 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1010 sz:1 ][ addr:1021 sz:2 ]
+
+ptr[830] = Alloc(2) returned 1021 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1010 sz:1 ]
+
+ptr[831] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1010 sz:1 ]
+
+ptr[832] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1010 sz:1 ]
+
+Free(ptr[20])
+returned 0
+Free List [ Size 2 ]: [ addr:1010 sz:1 ][ addr:1088 sz:7 ]
+
+ptr[833] = Alloc(5) returned 1088 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1010 sz:1 ][ addr:1093 sz:2 ]
+
+ptr[834] = Alloc(1) returned 1010 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1093 sz:2 ]
+
+ptr[835] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1093 sz:2 ]
+
+ptr[836] = Alloc(1) returned 1093 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1094 sz:1 ]
+
+ptr[837] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1094 sz:1 ]
+
+ptr[838] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1094 sz:1 ]
+
+ptr[839] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1094 sz:1 ]
+
+ptr[840] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1094 sz:1 ]
+
+ptr[841] = Alloc(1) returned 1094 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[842] = Alloc(7) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[843] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[844] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[845] = Alloc(9) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[846] = Alloc(4) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[847] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[848] = Alloc(7) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[849] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[386])
+returned 0
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[850] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[851] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[852] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[853] = Alloc(4) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[854] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[855] = Alloc(9) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[856] = Alloc(5) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[857] = Alloc(10) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[858] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[859] = Alloc(8) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[860] = Alloc(6) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+ptr[861] = Alloc(7) returned -1 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1024 sz:1 ]
+
+Free(ptr[804])
+returned 0
+Free List [ Size 2 ]: [ addr:1000 sz:4 ][ addr:1024 sz:1 ]
+
+ptr[862] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1000 sz:4 ][ addr:1024 sz:1 ]
+
+ptr[863] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1000 sz:4 ][ addr:1024 sz:1 ]
+
+ptr[864] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1000 sz:4 ][ addr:1024 sz:1 ]
+
+ptr[865] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1000 sz:4 ][ addr:1024 sz:1 ]
+
+ptr[866] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1000 sz:4 ][ addr:1024 sz:1 ]
+
+ptr[867] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1000 sz:4 ][ addr:1024 sz:1 ]
+
+ptr[868] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1000 sz:4 ][ addr:1024 sz:1 ]
+
+ptr[869] = Alloc(1) returned 1024 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1000 sz:4 ]
+
+ptr[870] = Alloc(4) returned 1000 (searched 1 elements)
+Free List [ Size 0 ]: 
+
+ptr[871] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[872] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[873] = Alloc(10) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[874] = Alloc(5) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[875] = Alloc(3) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[876] = Alloc(1) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+ptr[877] = Alloc(6) returned -1 (searched 0 elements)
+Free List [ Size 0 ]: 
+
+Free(ptr[870])
+returned 0
+Free List [ Size 1 ]: [ addr:1000 sz:4 ]
+
+ptr[878] = Alloc(3) returned 1000 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1003 sz:1 ]
+
+Free(ptr[557])
+returned 0
+Free List [ Size 2 ]: [ addr:1003 sz:1 ][ addr:1079 sz:1 ]
+
+ptr[879] = Alloc(10) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1003 sz:1 ][ addr:1079 sz:1 ]
+
+ptr[880] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1003 sz:1 ][ addr:1079 sz:1 ]
+
+ptr[881] = Alloc(5) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1003 sz:1 ][ addr:1079 sz:1 ]
+
+ptr[882] = Alloc(6) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1003 sz:1 ][ addr:1079 sz:1 ]
+
+ptr[883] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1003 sz:1 ][ addr:1079 sz:1 ]
+
+Free(ptr[710])
+returned 0
+Free List [ Size 3 ]: [ addr:1003 sz:1 ][ addr:1060 sz:3 ][ addr:1079 sz:1 ]
+
+ptr[884] = Alloc(3) returned 1060 (searched 3 elements)
+Free List [ Size 2 ]: [ addr:1003 sz:1 ][ addr:1079 sz:1 ]
+
+ptr[885] = Alloc(1) returned 1003 (searched 2 elements)
+Free List [ Size 1 ]: [ addr:1079 sz:1 ]
+
+Free(ptr[249])
+returned 0
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[886] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[887] = Alloc(7) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[888] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[889] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[890] = Alloc(8) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[891] = Alloc(4) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[892] = Alloc(2) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[893] = Alloc(9) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+
+ptr[894] = Alloc(2) returned -1 (searched 2 elements)
+Free List [ Size 2 ]: [ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+
+Free(ptr[667])
+returned 0
+Free List [ Size 3 ]: [ addr:1065 sz:1 ][ addr:1079 sz:1 ][ addr:1087 sz:1 ]
+

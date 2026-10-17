@@ -1,0 +1,17 @@
+
+ARG seed 2
+ARG address space size 1k
+ARG phys mem size 16k
+
+Base-and-Bounds register information:
+
+  Base   : 0x00003ca9 (decimal 15529)
+  Limit  : 500
+
+Virtual Address Trace
+  VA  0: 0x00000039 (decimal:   57) --> VALID: 0x00003ce2 (decimal: 15586)
+  VA  1: 0x00000056 (decimal:   86) --> VALID: 0x00003cff (decimal: 15615)
+  VA  2: 0x00000357 (decimal:  855) --> SEGMENTATION VIOLATION
+  VA  3: 0x000002f1 (decimal:  753) --> SEGMENTATION VIOLATION
+  VA  4: 0x000002ad (decimal:  685) --> SEGMENTATION VIOLATION
+

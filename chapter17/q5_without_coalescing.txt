@@ -1,0 +1,35 @@
+seed 0
+size 100
+baseAddr 1000
+headerSize 0
+alignment -1
+policy BEST
+listOrder ADDRSORT
+coalesce False
+numOps 10
+range 10
+percentAlloc 50
+allocList +10,+10,+10,-0,-1,-2
+compute True
+
+ptr[0] = Alloc(10) returned 1000 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1010 sz:90 ]
+
+ptr[1] = Alloc(10) returned 1010 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1020 sz:80 ]
+
+ptr[2] = Alloc(10) returned 1020 (searched 1 elements)
+Free List [ Size 1 ]: [ addr:1030 sz:70 ]
+
+Free(ptr[0])
+returned 0
+Free List [ Size 2 ]: [ addr:1000 sz:10 ][ addr:1030 sz:70 ]
+
+Free(ptr[1])
+returned 0
+Free List [ Size 3 ]: [ addr:1000 sz:10 ][ addr:1010 sz:10 ][ addr:1030 sz:70 ]
+
+Free(ptr[2])
+returned 0
+Free List [ Size 4 ]: [ addr:1000 sz:10 ][ addr:1010 sz:10 ][ addr:1020 sz:10 ][ addr:1030 sz:70 ]
+

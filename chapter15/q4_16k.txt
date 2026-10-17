@@ -1,0 +1,22 @@
+
+ARG seed 1
+ARG address space size 16k
+ARG phys mem size 128k
+
+Base-and-Bounds register information:
+
+  Base   : 0x0001b1e2 (decimal 111074)
+  Limit  : 4646
+
+Virtual Address Trace
+  VA  0: 0x000030e1 (decimal: 12513) --> SEGMENTATION VIOLATION
+  VA  1: 0x00001053 (decimal: 4179) --> VALID: 0x0001c235 (decimal: 115253)
+  VA  2: 0x00001fb5 (decimal: 8117) --> SEGMENTATION VIOLATION
+  VA  3: 0x00001cc4 (decimal: 7364) --> SEGMENTATION VIOLATION
+  VA  4: 0x000029b3 (decimal: 10675) --> SEGMENTATION VIOLATION
+  VA  5: 0x0000327a (decimal: 12922) --> SEGMENTATION VIOLATION
+  VA  6: 0x00000601 (decimal: 1537) --> VALID: 0x0001b7e3 (decimal: 112611)
+  VA  7: 0x000001d0 (decimal:  464) --> VALID: 0x0001b3b2 (decimal: 111538)
+  VA  8: 0x0000357d (decimal: 13693) --> SEGMENTATION VIOLATION
+  VA  9: 0x00001bb2 (decimal: 7090) --> SEGMENTATION VIOLATION
+
