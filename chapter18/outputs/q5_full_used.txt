@@ -1,0 +1,29 @@
+ARG seed 0
+ARG address space size 16k
+ARG phys mem size 64k
+ARG page size 4k
+ARG verbose False
+ARG addresses -1
+
+
+The format of the page table is simple:
+The high-order (left-most) bit is the VALID bit.
+  If the bit is 1, the rest of the entry is the PFN.
+  If the bit is 0, the page is not valid.
+Use verbose mode (-v) if you want to print the VPN # by
+each entry of the page table.
+
+Page Table (from entry 0 down to the max size)
+  0x8000000c
+  0x80000004
+  0x80000006
+  0x80000009
+
+Virtual Address Trace
+  VA 0x00003a1e (decimal:    14878) --> 00009a1e (decimal    39454) [VPN 3]
+  VA 0x0000204c (decimal:     8268) --> 0000604c (decimal    24652) [VPN 2]
+  VA 0x00001209 (decimal:     4617) --> 00004209 (decimal    16905) [VPN 1]
+  VA 0x0000305f (decimal:    12383) --> 0000905f (decimal    36959) [VPN 3]
+  VA 0x00002793 (decimal:    10131) --> 00006793 (decimal    26515) [VPN 2]
+
+Exit code: 0

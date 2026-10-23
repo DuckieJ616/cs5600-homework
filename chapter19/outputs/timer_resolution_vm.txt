@@ -1,0 +1,2 @@
+Clock resolution: 0 seconds, 1 nanoseconds
+Minimum observed positive interval: 41 ns
